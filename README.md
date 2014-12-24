@@ -1,4 +1,4 @@
-Paypal for Meteor
+Fork of Paypal for Meteor - Documentation Out of Date 
 =============
 
 Meteor Package for easy Paypal payment processing.

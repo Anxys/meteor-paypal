@@ -24,7 +24,7 @@
 	testAsyncMulti('Test2', [
 		function(test, expect) {
 			console.log("test2:");
-			Meteor.Paypal.executePayment('E83TKBWTGEFFY', 'PAY-7XW17766RW045830EKSMIW7I',
+			Meteor.Paypal.executePayment('<payer-id>', '<paymentId>',
 				expect(function(error, results) {
 					if (error) {
 						console.log(this);
